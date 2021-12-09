@@ -19,9 +19,6 @@
 .fleximg {
   align-items: center;
   justify-content: center;
-}
-
-.fleximg {
   display: block;
   width: 60%;
   margin: auto;
@@ -37,12 +34,10 @@
 .team {
   align-items: center;
   justify-content: center;
-}
-
-.team {
   display: block;
   width: 80%;
 }
+
 .team img {
   display: block;
   height: auto;
@@ -50,11 +45,11 @@
 }
 
 .team p {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 .team h5 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .portrait {
@@ -87,12 +82,12 @@
 }
 
 .project p {
-    margin-top: -30px;
-    padding-bottom: 20px;
+  margin-top: -30px;
+  padding-bottom: 20px;
 }
 
 .project h5 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .timeline {
@@ -165,9 +160,10 @@
   line-height: 1.2;
 }
 
+
 html {
   background-color: #f8f9fa;
-  }
+}
 
 body {
   background-color: #f8f9fa;
@@ -237,7 +233,7 @@ h2 {
 h3 {
   text-align: center;
   font-family: 'Roboto Slab';
-  font-weight: 600;
+  font-weight: 300;
   font-size:22px;
   font-style: italic;
   color: white;
@@ -335,7 +331,6 @@ footer img {
   max-width: 144px;
   height: auto;
   margin: auto;
-
 }
 
 
