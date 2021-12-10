@@ -13,7 +13,7 @@
   background-color: transparent;
 }
 
-.homesection{
+.homesection {
   background-image:url(../images/header-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -23,21 +23,24 @@
   font-weight: 600;
 }
 
+/* contact main */
 
-
-.pcolumns {
-  display: flex;
+.contactmain {
+  background-color: #212529;
+  background-image:url(../images/map-image.png);
+  background-size: cover;
+  background-position: center;
+  display:flex;
   flex-wrap: wrap;
-  justify-content: center;
+  width: 92.25%;
 }
-
-
 
 /* portfolio div */
 
 .project {
   background-color: white;
   max-height: 310px;
+  max-width: 300px;
   display: block;
   margin: 10px;
   padding: 0;
@@ -61,7 +64,6 @@
 .project h5 {
   margin-top: 20px;
 }
-
 
 /* team div */
 
@@ -93,65 +95,60 @@
   height: auto;
 }
 
+/* timeline div */
 
+.about {
+  margin: 100px;
+  max-width: 100%;
+}
 
 .timeline {
-  width: 150px;
-  border-radius: 50%;
-  border: 7px solid #DFE0E1;
-  height: auto;
-  margin: 20px 40px 20px 40px;
-}
-
-.timeline:after {
-  content: '';
-  width: 0;
-  height: 100%;
-  position: absolute;
-  border: 1px solid black;
-  top: 0;
-  left: 10px;
-}
-
-.aboutus {
-  justify-content: center;
-  padding: 30px;
-}
-
-.acolumn {
-  float: left;
-  width: 250px;
-  padding: 20px;
+  display: flex;
+  max-width: 100%;
+  width: 90%;
   margin: 0 auto;
   justify-content: center;
 }
 
-.acolumn p {
-  font-family: 'Roboto Slab';
-  font-weight: 600;
-  font-size:14px;
-  margin-top: -20px;
+.timeline img {
+  width: 150px;
+  border-radius: 50%;
+  border: 7px solid #DFE0E1;
+  height: auto;
 }
 
-.acolumn h5 {
-  margin-top: -20px;
+.timeline div {
+  width: 300px;
+  padding: 10px 20px 100px 20px;
+  margin-right: 50px;
 }
 
-.about:after {
-  justify-content: center;
-  content: "";
-  display: table;
-  clear: both;
+.timeline div:nth-child(1){
+  border-right-style: solid;
+  border-right-color: #DFE0E1;
+  border-right-width: 2px;
+  padding-right: 130px;
+  width: 320px;
+  max-width: 100%;
 }
+
+.overlap {
+  position: relative;
+  left: -152px;
+  top: -10px;
+}
+
+/* timeline circle div */
 
 .circle {
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 150px;
   background-color: #fed136;
   border-radius: 50%;
   display: inline-block;
   border: 7px solid #DFE0E1;
-  margin: 20px 40px 20px 40px;
+  margin-top: 10px;
+  margin-left: 628px;
 }
 
 .circle p {
@@ -160,11 +157,10 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size:24px;
-  margin-top: 30px;
-  margin-left: 15px;
+  margin-top: 37px;
+  margin-left: 25px;
   line-height: 1.2;
 }
-
 
 /* html & body */
 
@@ -181,9 +177,11 @@ body {
 header {
   background-color: #212529;
   display:flex;
+  flex-wrap: wrap;
   justify-content:space-between;
   padding:0 100px;
   position:sticky;
+  max-width: 100%;
 }
 
 header nav ul {
@@ -281,12 +279,13 @@ p {
 /* main */
 
 main {
-  max-width: 960px;/*relative*/
-  width: 90%;/*absolute*/
+  max-width: 100%;
+  width: 80%;
   padding: 50px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 main div {
@@ -316,6 +315,38 @@ main img {
   margin: 0 auto;
 }
 
+/* form */
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width:70%;
+  margin:0 auto;
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+  font-family: 'Montesserat', sans-serif;
+  font-weight: 400;
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input[type="longtext"] {
+  font-size: 16px;
+  font-family: 'Montesserat', sans-serif;
+  font-weight: 400;
+  padding: 20px 20px 185px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-left: 20px;
+}
+
 /* footer */
 
 footer {
@@ -324,8 +355,10 @@ footer {
   border-top-style: solid;
   border-color: #212529;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding:0 100px;
+  padding:0 50px;
+  max-width: 100%;
 }
 
 footer p {
@@ -338,7 +371,7 @@ footer p {
 
 footer ul {
   padding:10px 0px 10px 0px;
-  text-decoration:none;
+  list-style-type:none;
   display:flex;
 }
 
@@ -347,7 +380,7 @@ footer ul a {
   font-weight: 400;
   font-size: 12px;
   color:#fed136;
-  list-style-type:none;
+  text-decoration:none;
   padding:0 15px;
 }
 
@@ -375,12 +408,3 @@ footer img {
   main{
     flex-direction: column;
   }
-
-
-
-
-
-
-
-
-
