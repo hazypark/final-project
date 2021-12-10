@@ -63,7 +63,7 @@
 }
 
 
-
+/* team div */
 
 .team {
   align-items: center;
@@ -166,8 +166,6 @@
 }
 
 
-
-
 /* html & body */
 
 html {
@@ -181,7 +179,7 @@ body {
 /* header */
 
 header {
-  background-color: black;
+  background-color: #212529;
   display:flex;
   justify-content:space-between;
   padding:0 100px;
@@ -191,6 +189,7 @@ header {
 header nav ul {
   display:flex;
   justify-content:space-between;
+  list-style-type:none;
 }
 
 header nav a {
@@ -220,7 +219,7 @@ button {
   margin: auto;
 }
 
-/* headings */
+/* text */
 
 h1 {
   text-transform:uppercase;
@@ -269,6 +268,16 @@ h5 {
   color: #212529;
 }
 
+p {
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  font-size:12px;
+  line-height: 1.7;
+  color: slategray;
+  padding: 0px 0px 10px 0px;
+}
+
 /* main */
 
 main {
@@ -286,6 +295,14 @@ main div {
   justify-content: center;
 }
 
+main h2 {
+  width: 100%;
+}
+
+main h3 {
+  width: 100%;
+}
+
 main h4 {
   width: 100%;
 }
@@ -299,23 +316,13 @@ main img {
   margin: 0 auto;
 }
 
-p {
-  text-align: center;
-  font-family: 'Roboto Slab';
-  font-weight: 600;
-  font-size:12px;
-  line-height: 1.7;
-  color: slategray;
-  padding: 0px 0px 10px 0px;
-}
-
 /* footer */
 
 footer {
   background-color:white;
   padding:10px;
   border-top-style: solid;
-  border-color: black;
+  border-color: #212529;
   display: flex;
   justify-content: space-between;
   padding:0 100px;
@@ -331,7 +338,7 @@ footer p {
 
 footer ul {
   padding:10px 0px 10px 0px;
-  list-style-type:none;
+  text-decoration:none;
   display:flex;
 }
 
@@ -340,7 +347,7 @@ footer ul a {
   font-weight: 400;
   font-size: 12px;
   color:#fed136;
-  text-decoration:none;
+  list-style-type:none;
   padding:0 15px;
 }
 
