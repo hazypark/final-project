@@ -23,6 +23,12 @@
   font-weight: 600;
 }
 
+.heading h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
 /* contact main */
 
 .contactmain {
@@ -62,6 +68,8 @@
 }
 
 .project h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin-top: 20px;
 }
 
@@ -222,7 +230,7 @@ button {
 h1 {
   text-transform:uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-size:22px;
   color: #fed136;
   margin-top:30px;
