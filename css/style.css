@@ -8,6 +8,7 @@
 .columns {
   background-color: #f8f9fa;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .pcolumns {
@@ -159,7 +160,6 @@
   margin-left: 15px;
   line-height: 1.2;
 }
-
 
 html {
   background-color: #f8f9fa;
@@ -332,6 +332,10 @@ footer img {
   height: auto;
   margin: auto;
 }
+
+
+
+
 
 
 

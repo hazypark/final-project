@@ -81,7 +81,7 @@ h3 {
 }
 
 section:nth-child(2) {
-  background-image:url(images/map-image.png);
+  background-image:url(../images/map-image.png);
   min-height:500px;
   padding-top: 100px;
 }
