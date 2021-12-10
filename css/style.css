@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* css document */
 
+/* home header */
+
 .homeheader {
   background-image:url(../images/header-bg.jpg);
   background-size: cover;
@@ -21,30 +23,7 @@
   font-weight: 600;
 }
 
-/*.columns {
-  background-color: #f8f9fa;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 70px;
-  padding: 20px;
-}
 
-.homeimg {
-  max-width: 680px;
-  max-height: auto;
-  display: block;
-  width: 100%;
-  margin: 10px;
-  padding: 10px;
-}
-
-.homeimg img {
-  display: block;
-  max-width: 144px;
-  height: auto;
-  margin: 0 auto;
-}*/
 
 .pcolumns {
   display: flex;
@@ -52,19 +31,21 @@
   justify-content: center;
 }
 
+
+
+/* portfolio div */
+
 .project {
   background-color: white;
-  max-width: 250px;
-  max-height: 270px;
+  max-height: 310px;
   display: block;
-  width: 100%;
   margin: 10px;
   padding: 0;
 }
 
 .project img {
   display: block;
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
   margin: 0 auto;
 }
@@ -80,8 +61,6 @@
 .project h5 {
   margin-top: 20px;
 }
-
-
 
 
 
@@ -112,12 +91,6 @@
   border-radius: 50%;
   border: 7px solid #DFE0E1;
   height: auto;
-}
-
-.teamdesc {
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto;
 }
 
 
@@ -192,6 +165,11 @@
   line-height: 1.2;
 }
 
+
+
+
+/* html & body */
+
 html {
   background-color: #f8f9fa;
 }
@@ -199,6 +177,8 @@ html {
 body {
   background-color: #f8f9fa;
 }
+
+/* header */
 
 header {
   background-color: black;
@@ -224,6 +204,8 @@ header nav a {
   padding:20px 20px;
 }
 
+/* button */
+
 button {
   background-color:#fed136;
   font-family: 'Montserrat', sans-serif;
@@ -238,10 +220,7 @@ button {
   margin: auto;
 }
 
-
-
-
-
+/* headings */
 
 h1 {
   text-transform:uppercase;
@@ -289,10 +268,6 @@ h5 {
   font-size:20px;
   color: #212529;
 }
-
-
-
-
 
 /* main */
 
