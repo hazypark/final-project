@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Studio</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -15,8 +17,8 @@
     <header class="homeheader">
       <h1>Studio</h1>
       <nav>
-        <ul>
-          <li> <a href="#">Services</a></li>
+        <ul id="linkDiv">
+          <li> <a href="#" class="scrollLink">Services</a></li>
           <li> <a href="portfolio.html">Portfolio</a></li>
           <li> <a href="about.html">About</a></li>
           <li> <a href="team.html">Team</a></li>
@@ -33,11 +35,11 @@
         </div>
     </section>
 
-    <main>
+    <main id="textDiv">
         <h4 style="font-family: 'Montserrat', sans-serif;font-weight: 700;">Services</h4>
         <p><em>Lorem ipsum dolor sit amet, consectetur.</em></p>
 
-            <div>
+            <div id="link1">
               <img src="images/shop-icon.png" alt="Shop Icon">
               <h5 style="font-family: 'Montserrat', sans-serif;font-weight: 600;">E-Commerce</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -66,5 +68,17 @@
         </ul>
       </nav>
     </footer>
+
+<script>
+      $(document).ready(function() {
+          $('a[href^="#"]').click(function() {
+              $('html, body').animate({
+                  scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+                }, 500);
+              return false;
+            });
+        });
+</script>
+
   </body>
 </html>

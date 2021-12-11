@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -30,44 +30,42 @@
       <h4 style="font-family: 'Montserrat', sans-serif;font-weight: 700;">Portfolio</h4>
       <p><em>Lorem ipsum dolor sit amet, consectetur.</em></p>
           <div class="project">
-              <img src="images/portfolio/01-thumbnail.jpg" alt="Photo of Threads Project">
+              <img src="images/portfolio/01-thumbnail.jpg" alt="Photo of Threads Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/01-full.jpg')">
               <h5>Threads</h5>
               <p>Illustration</p>
           </div>
 
           <div class="project">
-              <img src="images/portfolio/02-thumbnail.jpg" alt="Photo of Explore Project">
+              <img src="images/portfolio/02-thumbnail.jpg" alt="Thumbnail of Explore Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/02-full.jpg')">
               <h5>Explore</h5>
               <p>Graphic Design</p>
           </div>
 
           <div class="project">
-              <img src="images/portfolio/03-thumbnail.jpg" alt="Photo of Finish Project">
+              <img src="images/portfolio/03-thumbnail.jpg" alt="Thumbnail of Finish Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/03-full.jpg')">
               <h5>Finish</h5>
               <p>Identity</p>
           </div>
 
           <div class="project">
-              <img src="images/portfolio/04-thumbnail.jpg" alt="Photo of Lines Project">
+              <img src="images/portfolio/04-thumbnail.jpg" alt="Thumbnail of Lines Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/04-full.jpg')">
               <h5>Lines</h5>
               <p>Branding</p>
           </div>
 
           <div class="project">
-              <img src="images/portfolio/05-thumbnail.jpg" alt="Photo of Southwest Project">
+              <img src="images/portfolio/05-thumbnail.jpg" alt="Thumbnail of Southwest Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/05-full.jpg')">
               <h5>Southwest</h5>
               <p>Website Design</p>
           </div>
 
           <div class="project">
-              <img src="images/portfolio/06-thumbnail.jpg" alt="Photo of Window Project">
+              <img src="images/portfolio/06-thumbnail.jpg" alt="Thumbnail of Window Project" onclick="window.open('file:///Users/Hazy/Desktop/clone-website/images/portfolio/06-full.jpg')">
               <h5>Window</h5>
               <p>Photography</p>
           </div>
         </main>
     </section>
-
-
     <footer>
       <p style="font-family: 'Montserrat', sans-serif;font-weight: 400;">Copyright &copy; Your Website 2020</p>
       <img src="images/social-icons.png" alt="Social Icons">
@@ -78,5 +76,13 @@
         </ul>
       </nav>
     </footer>
+
+<script type="text/javascript">
+function image(img) {
+    var src = img.src;
+    window.open(src);
+}
+</script>
+
   </body>
 </html>
